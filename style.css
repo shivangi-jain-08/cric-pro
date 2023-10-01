@@ -1,1 +1,159 @@
 /* Type your code here */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 25px 90px;
+    overflow-x: hidden;
+    background: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 125vh;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#img-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3{
+    color: #696969;
+    font-size: 24px;
+}
+
+/* Styling table head div */
+#top{
+    margin-top: 25px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DD4A2F;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Styling table */
+table{
+    width: 1000px;
+    font-size: 20px;
+    border-spacing: 0px;
+}
+
+.grey-bg{
+    background-color: #FAFAFA;
+}
+
+td, tr, th{
+    padding: 10px;
+}
+
+td, th{
+    border-bottom: 1px solid #BFBFBF;
+    background-color: white;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3285EE;
+    display: inline;
+    cursor: pointer;
+}
+
+h5{
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.grey{
+    color: #838383;
+}
+
+/* Styling footer */
+footer{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+/* Positioning Images */
+.image{
+    position: absolute;
+    display: none;
+    width: 440px;
+}
+
+.left{
+    left: 130px
+}
+
+#sehwag-img{
+    top: 300px;
+}
+
+#sachin-img{
+    top: 345px;
+}
+
+#gambhir-img{
+    top: 390px;
+}
+
+#kohli-img{
+    top: 435px;
+}
+
+#dhoni-img{
+    top: 480px;
+}
+
+#yuvraj-img{
+    top: 525px;
+}
+
+.top{
+    top: 685px;
+}
+
+#raina-img{
+    left: 340px;
+}
+
+#harbhajan-img{
+    left: 470px;
+}
+
+#zaheer-img{
+    left: 630px;
+}
+
+#munaf-img{
+    left: 740px;
+}
+
+#sreesanth-img{
+    left: 850px;
+}
